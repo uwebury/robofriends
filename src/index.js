@@ -4,7 +4,7 @@ import "./index.css";
 import Card from "./Card";
 
 ReactDOM.render(
-  <div>
+  <div className="bg-light-green dib br3 pa3 ma2 grow">
     <Card />
     <Card />
     <Card />
