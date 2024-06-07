@@ -2,9 +2,10 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import Card from "./Card";
+import "tachyons/css/tachyons.min.css";
 
 ReactDOM.render(
-  <div className="bg-light-green dib br3 pa3 ma2 grow">
+  <div>
     <Card />
     <Card />
     <Card />
