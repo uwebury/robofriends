@@ -2,7 +2,8 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import Card from "./Card";
-import "tachyons/css/tachyons.min.css";
+import "tachyons";
+import robots from "./robots";
 
 ReactDOM.render(
   <div>
