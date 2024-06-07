@@ -1,2 +1,2 @@
 # RoboFriends App
-An app in React to filter all your robofriends.
+A React app to filter all your robofriends.
