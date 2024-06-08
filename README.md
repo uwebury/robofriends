@@ -1,2 +1,2 @@
 # RoboFriends App
-A React app to filter all your robofriends.
+RoboFriends is a simple, interactive web application built using React. The app allows users to search through a list of robot profiles dynamically. Each robot profile is generated with a unique name and image. The application demonstrates the basics of React, including components, props, state, and lifecycle methods. It also uses the Robohash API to generate robot images and includes a responsive design for different screen sizes.
