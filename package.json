@@ -7,15 +7,16 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "css-loader": "^7.1.2", 
+    "css-loader": "^7.1.2",
     "css-select": "^5.1.0",
     "gh-pages": "^6.1.1",
     "npm-force-resolutions": "^0.0.10",
     "nth-check": "^2.1.1",
+    "postcss": "^8.4.39",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-scripts": "^5.0.1", 
-    "resolve-url-loader": "^5.0.0", 
+    "react-scripts": "^5.0.1",
+    "resolve-url-loader": "^5.0.0",
     "svgo": "^3.3.2",
     "tachyons": "^4.12.0",
     "web-vitals": "^2.1.4"
@@ -54,7 +55,7 @@
     "nth-check": "2.1.1",
     "css-select": "5.1.0",
     "svgo": "3.3.2",
-    "postcss": "8.4.31", 
+    "postcss": "8.4.31",
     "ws": "8.17.1"
   }
 }
