@@ -1,13 +1,14 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-import { Provider, connect } from "react-redux";
-import { createStore } from "redux";
+import { Provider } from "react-redux";
+import { createStore, combineReducers } from "redux";
 import "./index.css";
 import App from "./containers/App";
 import { searchRobots } from "./reducers";
 import "tachyons";
 
-const store = createStore(searchRobots);
+const rootReducer = combineReducers({ searchRobots });
+const store = createStore(rootReducer);
 
 const container = document.getElementById("root");
 const root = createRoot(container);
