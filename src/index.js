@@ -6,6 +6,7 @@ import { createLogger } from "redux-logger";
 import { thunk } from "redux-thunk";
 import "./index.css";
 import App from "./containers/App";
+import * as serviceWorker from "./serviceWorker";
 import { searchRobots, requestRobots } from "./reducers";
 import "tachyons";
 
@@ -22,18 +23,4 @@ root.render(
   </Provider>
 );
 
-if ("serviceWorker" in navigator) {
-  window.addEventListener("load", () => {
-    navigator.serviceWorker
-      .register("/service-worker.js")
-      .then((registration) => {
-        console.log(
-          "Service Worker registered with scope:",
-          registration.scope
-        );
-      })
-      .catch((error) => {
-        console.log("Service Worker registration failed:", error);
-      });
-  });
-}
+serviceWorker.register();
