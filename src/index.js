@@ -6,6 +6,7 @@ import { createLogger } from "redux-logger";
 import { thunk } from "redux-thunk";
 import "./index.css";
 import App from "./containers/App";
+import * as serviceWorker from "./serviceWorker";
 import { searchRobots, requestRobots } from "./reducers";
 import "tachyons";
 
@@ -21,3 +22,5 @@ root.render(
     <App />
   </Provider>
 );
+
+serviceWorker.register();
