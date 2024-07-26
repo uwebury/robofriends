@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { Provider } from "react-redux";
 import { createStore, combineReducers, applyMiddleware } from "redux";
 import { createLogger } from "redux-logger";
-import thunk from "redux-thunk";
+import { thunk } from "redux-thunk";
 import "./index.css";
 import App from "./containers/App";
 import { searchRobots, requestRobots } from "./reducers";
