@@ -68,7 +68,7 @@
     "@svgr/plugin-svgo": "8.1.0",
     "@svgr/webpack": "8.1.0",
     "resolve-url-loader": "5.0.0",
-    "rollup": "^3.29.5"
+    "rollup": "3.29.5"
   },
   "peerDependencies": {
     "postcss": "8.4.31"
